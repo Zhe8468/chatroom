@@ -1,2 +1,34 @@
-# chatroom
-局域网聊天室
+# 局域网聊天室
+
+## 测试环境
+Python 3.8.5
+NaviCat
+PyCharm
+
+## 使用框架
+网络通讯：Socket
+界面：TTkboostrap
+多线程：Threading
+数据库 MySQL
+
+## 部署方式
+采用Client+Brower的方式局域网部署
+
+## 通讯协议
+没有使用json或者xml，采用简单地自定义通讯文本
+```
+# 请求格式相关配置
+REQUEST_LOGIN = "0001"
+REQUEST_CHAT = "0002"
+REQUEST_USERS = "0003"
+
+#响应
+RESPONSE_LOGIN_RESULT = "1001"
+RESPONSE_CHAT = "1002"
+RESPONSE_USERS = "1003"
+SEPARATOR = "|"
+```
+
+
+
+
