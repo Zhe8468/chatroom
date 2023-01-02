@@ -1,15 +1,18 @@
 # 局域网聊天室
 
 ## 测试环境
-Python 3.8.5
-NaviCat
-PyCharm
+1. Python 3.8.5
+2. NaviCat
+3. PyCharm
+
+## 虚拟环境
+PipEnv
 
 ## 使用框架
-网络通讯：Socket
-界面：TTkboostrap
-多线程：Threading
-数据库 MySQL
+1. 网络通讯：Socket
+2. 界面：TTkboostrap
+3. 多线程：Threading
+4. 数据库 MySQL
 
 ## 功能
 1. 多用户登录
